@@ -22,14 +22,28 @@ public class PlayerController : MonoBehaviour {
 			// Set the animator speed
 			AIPath aiPath = player.GetComponent<AIPath>();
 			Animator anim = player.GetComponent<Animator>();
-			if(aiPath.velocity != null)
+			/*if(aiPath.velocity != null)
 			{ 
-				print (aiPath.velocity);
 				anim.SetFloat("Speed", aiPath.velocity / aiPath.speed);
-				//anim.SetFloat("Speed", seek.GetCurrentPath().speed); 
+				anim.SetFloat("Speed", seek.GetCurrentPath().speed); 
 				//print (seek.GetCurrentPath().speed);
-			}
+			}*/
 			//animation.SetFloat("Speed", h*h+v*v);
+			
+			Vector3 velocity;
+			float cSpeed;
+			velocity = player.GetComponent<CharacterController>().velocity;
+			if (player.GetComponent<CharacterMotor>().MaxSpeedInDirection(velocity) > 0f)
+			{ cSpeed = velocity.magnitude / player.GetComponent<CharacterMotor>().MaxSpeedInDirection(velocity); }
+			else
+			{ cSpeed = 0f; }
+			anim.SetFloat("Speed", cSpeed);
+			anim.SetFloat("VSpeed", velocity.y);
+			anim.SetBool("OnGround", player.GetComponent<CharacterMotor>().IsGrounded());
+			
+			print (cSpeed);
+			//print (velocity.y);
+			//print (player.GetComponent<CharacterMotor>().IsGrounded());
 			
 			// Ensure the player has us set as their player controller
 			PlayerActionAI pAI = player.GetComponent<PlayerActionAI>();
