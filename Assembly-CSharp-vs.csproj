@@ -123,6 +123,8 @@
      <Compile Include="Assets\_Project\PlayerController2.cs" />
      <Compile Include="Assets\_Project\Scripts\AstarAI.cs" />
      <Compile Include="Assets\_Project\Scripts\GetClickLocation.cs" />
+     <Compile Include="Assets\_Project\Scripts\ObjectAI\Dissolve.cs" />
+     <Compile Include="Assets\_Project\Scripts\ObjectAI\SimpleCreator.cs" />
      <Compile Include="Assets\_Project\Scripts\PathingAI\PlayerAIFollow.cs" />
      <Compile Include="Assets\_Project\Scripts\PathingAI\PlayerActionAI.cs" />
      <Compile Include="Assets\_Project\Scripts\PlayerController.cs" />
