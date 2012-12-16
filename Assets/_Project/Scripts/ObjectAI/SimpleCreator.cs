@@ -19,5 +19,8 @@ public class SimpleCreator : MonoBehaviour {
 	
 	// Create the object now
 	public void Create(int id)
-	{ GameObject go = (GameObject)Instantiate(ToCreate[id], transform.position + CreateAt, transform.rotation); }
+	{ 
+		GameObject go = (GameObject)Instantiate(ToCreate[id], transform.position, transform.rotation); 
+		go.transform.Translate(CreateAt);
+	}
 }

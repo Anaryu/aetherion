@@ -43,7 +43,7 @@ function Update () {
 	motor.inputJump = Input.GetButton("Jump");
 	
 	// Set rotation to the move direction	
-	if (autoRotate && directionVector.sqrMagnitude > 0.01) {
+	if (autoRotate && directionVector.sqrMagnitude > 0.01 && motor.canControl) {
 		var newForward : Vector3 = ConstantSlerp(
 			transform.forward,
 			directionVector,

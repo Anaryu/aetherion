@@ -1,9 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Project\Scripts\PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Project/Scripts/ObjectAI/SimpleCreator.cs">
     <Files>
-      <File FileName="Assets\_Project\Scripts\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Project\Scripts\ObjectAI\Dissolve.cs" Line="25" Column="2" />
+      <File FileName="Assets/_Project/Scripts/DataClasses/Enums/eEventType.cs" Line="10" Column="15" />
+      <File FileName="Assets/_Project/Scripts/EventSystem/EventController.cs" Line="64" Column="4" />
+      <File FileName="Assets/_Project/Scripts/PlayerController.cs" Line="136" Column="16" />
+      <File FileName="Assets/_Project/Scripts/Cameras/CharacterOrbit.cs" Line="66" Column="61" />
+      <File FileName="Assets/_Project/Scripts/EventSystem/SceneInterpreter.cs" Line="157" Column="1" />
+      <File FileName="Assets/_Project/Scripts/EventSystem/eventWait.cs" Line="25" Column="21" />
+      <File FileName="Assets/_Project/Scripts/ObjectAI/SimpleCreator.cs" Line="24" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
