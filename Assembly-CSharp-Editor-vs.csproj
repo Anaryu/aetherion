@@ -37,10 +37,10 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity4/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity4/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -140,32 +140,32 @@
      <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
      <None Include="Assets\EasyWater\Shaders_Tex\EasyWater7_no_color.shader" />
      <None Include="Assets\AstarPathfindingProject\Readme_upgrading.txt" />
- <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
+ <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
- <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript">
+ <Reference Include="Assembly-UnityScript">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
  </Reference>
- <Reference Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\Ionic.Zip.Reduced">
- <HintPath>Assets\AstarPathfindingProject\Plugins\DotNetZip\Ionic.Zip.Reduced.dll</HintPath>
- </Reference>
- <Reference Include="Assets\AstarPathfindingProject\Plugins\JsonFx\JsonFx.Json">
- <HintPath>Assets\AstarPathfindingProject\Plugins\JsonFx\JsonFx.Json.dll</HintPath>
- </Reference>
- <Reference Include="Assets\PlayMaker\PlayMaker">
+ <Reference Include="PlayMaker">
  <HintPath>Assets\PlayMaker\PlayMaker.dll</HintPath>
  </Reference>
- <Reference Include="Assets\PlayMaker\Editor\PlayMakerEditor">
+ <Reference Include="PlayMakerEditor">
  <HintPath>Assets\PlayMaker\Editor\PlayMakerEditor.dll</HintPath>
  </Reference>
- <Reference Include="Assets\SimpleSQL\Editor\SimpleSQL_Editor">
- <HintPath>Assets\SimpleSQL\Editor\SimpleSQL_Editor.dll</HintPath>
+ <Reference Include="Ionic.Zip.Reduced">
+ <HintPath>Assets\AstarPathfindingProject\Plugins\DotNetZip\Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
- <Reference Include="Assets\SimpleSQL\Plugins\SimpleSQL_Runtime">
+ <Reference Include="JsonFx.Json">
+ <HintPath>Assets\AstarPathfindingProject\Plugins\JsonFx\JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="SimpleSQL_Runtime">
  <HintPath>Assets\SimpleSQL\Plugins\SimpleSQL_Runtime.dll</HintPath>
  </Reference>
- <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
- <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ <Reference Include="SimpleSQL_Editor">
+ <HintPath>Assets\SimpleSQL\Editor\SimpleSQL_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity4\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
